@@ -1,6 +1,0 @@
-\contentsline {chapter}{\numberline {1}Introduction}{1}
-\contentsline {chapter}{\numberline {2}Hydrogen atom - polynmomial method}{2}
-\contentsline {chapter}{\numberline {3}Summary and Outlook }{5}
-\contentsline {chapter}{Appendix \numberline {A}Integrale}{6}
-\contentsline {chapter}{Appendix \numberline {B}Alta anexa}{7}
-\contentsline {chapter}{Bibliography}{8}

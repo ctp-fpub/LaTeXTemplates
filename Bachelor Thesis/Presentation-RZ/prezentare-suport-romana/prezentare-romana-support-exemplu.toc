@@ -1,9 +1,0 @@
-\beamer@endinputifotherversion {3.36pt}
-\beamer@sectionintoc {1}{Introducere \c {s}i motiva\c {t}ie}{3}{0}{1}
-\beamer@sectionintoc {2}{Caracterizarea dinamicii haotice pentru sisteme descrise de aplica\c {t}ii unidimensionale}{5}{0}{2}
-\beamer@subsectionintoc {2}{1}{Scurt\u {a}\ introducere a no\c {t}iunilor fundamentale}{5}{0}{2}
-\beamer@subsectionintoc {2}{2}{Scenariul general privind evolu\c {t}ia dinamicii aplica\c {t}iei logistice \^{\i }n func\c {t}ie de parametrul de control}{7}{0}{2}
-\beamer@subsectionintoc {2}{3}{Aplica\c {t}ia logistic\u {a}\ \^{\i }n regim haotic}{9}{0}{2}
-\beamer@sectionintoc {3}{Caracterizarea mecanismului de ,,folding''}{10}{0}{3}
-\beamer@subsubsectionintoc {3}{0}{1}{Analiza raportului $N^-_\delta /N^+_\delta $}{10}{0}{3}
-\beamer@sectionintoc {4}{Concluzii \hspace {43cm}}{12}{0}{4}

@@ -1,0 +1,40 @@
+
+
+%anexa este optionala, dar pot fi si mai multe anexe, fiercare cu titlul ei, la chapter
+
+\begin{appendices}
+	%%%%%%%%%%%%%%%%%%%%
+	\chapter{Integrale} 
+	\label{anexa1}
+	%%%%%%%%%%%%%%%%%%
+	
+	
+	\begin{table}[h]
+		\centerline{
+			\begin{tabular}{|c|c|c|c|} %cate coloane are
+				\hline
+				% & &  & \\
+				Rule & No. of points/ $[a,b]$ & $h$ & Formula for $I=\displaystyle\int_a^b{f(x)} dx$ \\
+				% & Interval $[a,b]$& & $I=\displaystyle\int_a^b{f(x)}$ \\
+				\hline
+				\hline
+				& &  & \\
+				Simpson &  $3$ points: $[x_0,x_2]$& $h=\displaystyle\frac{b-a}{2}$ & $I \simeq \displaystyle\frac{h}{3}(f_0 + 4f_1 + f_2) + {\cal O}(h^5) $ \\ 
+				\hline				
+				& &  & \\ %rand gol
+			coloana 1 &  2 & 3 & 4 \\ 
+				\hline
+			\end{tabular}
+		}
+		\caption{\label{cfni} Closed formulas for numerical integration.}
+	\end{table}
+	
+	%%%%%%%%%%%%%%%%%%
+	\chapter{Alta anexa}
+	\label{anexa2}
+	%%%%%%%%%%%%%%%%
+	
+	
+	
+	
+\end{appendices}

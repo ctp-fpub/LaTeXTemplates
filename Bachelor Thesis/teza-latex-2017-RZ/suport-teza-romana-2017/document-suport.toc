@@ -1,0 +1,6 @@
+\contentsline {chapter}{\numberline {1}Introducere}{1}
+\contentsline {chapter}{\numberline {2}Atomul hidrogenoid - metoda polinomial\IeC {\u a}}{2}
+\contentsline {chapter}{\numberline {3}Concluzii }{5}
+\contentsline {chapter}{Anexa \numberline {A}Integrale}{6}
+\contentsline {chapter}{Anexa \numberline {B}Alta anexa}{7}
+\contentsline {chapter}{Bibliografie}{8}

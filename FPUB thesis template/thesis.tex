@@ -1,0 +1,71 @@
+%\documentclass[12pt, twoside]{report}
+\documentclass[12pt]{report}		
+
+%%% CHOOSE THE COLOR SCHEME %%%
+% User defined color which will be used throughout the document
+% In case you want another color, find its HTML code (without #), a 6-digit string consisting of numbers and letters, then replace it in the brackets
+\def\htmlmaincolorcode{607B8B} 
+% Analogously, choose the color for shaded equation boxes, in case you wish to use them
+\def\htmlshadecolorcode{E4EDF2}
+% If you don't want any color and prefer black, just replace the option [customcolor] with [black]
+\usepackage[customcolor]{ctp-fpub}
+
+
+%%% ADD HERE ALL THE PACKAGES YOU USE %%%
+% Packages required only for the specific content in this template, remove if not needed
+\usepackage{slashed}
+\usepackage{dsfont}
+
+
+\bibliography{reference}
+
+
+% If you want to compile just a part of the thesis use \includeonly
+% For example:
+% \includeonly{filename2,filename3}
+
+
+%%% REPLACE THE INFORMATION IN THE BRACKETS %%%
+% Information contained in the title page
+\def\studentname{Name Surname} 
+\def\thesistitle{Wilson Loops}
+% In case of no subtitle, just leave this field empty {}
+\def\thesissubtitle{Mundane primer for the uninitiated}
+\def\thesistype{Bachelor}
+\def\firstsupervisor{First Supervisor}
+\def\firstsupervisorprefix{Prof. Dr.}
+% In case of no second supervsior, just leave these fields empty {}
+\def\secondsupervisor{Second Supervisor}
+\def\secondsupervisorprefix{Lect. Dr.}
+% In case of a third supervisor, well... 
+\def\domeniu{Fizică Teoretică şi Computaţională}
+\def\tipteza{licență}
+
+\begin{document}
+
+% Title page
+\newgeometry{margin=1in}
+\input{title.tex}
+\restoregeometry
+
+{\pagestyle{empty}\cleardoublepage}
+
+\include{declaratie}
+
+\tableofcontents
+{\pagestyle{empty}\cleardoublepage}
+\addtocontents{toc}{\protect\thispagestyle{empty}}
+
+\pagenumbering{arabic}
+
+% Don't include the .tex extension for the file name with include.
+\include{intro}
+% Add chapters here
+\include{qcd}
+\include{latticeqcd}
+\include{conclusions}
+
+\printbibliography
+
+
+\end{document}

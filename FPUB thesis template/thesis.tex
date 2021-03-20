@@ -17,8 +17,16 @@
 \usepackage{dsfont}
 
 
-\bibliography{reference}
+%%% COMMANDS & PACKAGES FOR TIKZIT %%%
+%%% Requires tikzit.sty in the main folder, remove if not needed
+\usepackage{tikzit}
+\definecolor{gaugelink}{HTML}{87608b}
+\definecolor{plaquette}{HTML}{607b8b}
+\input{tikzit/plaquettes.tikzstyles}
+% Package needed to scale .tikz diagrams
+\usepackage{tikzscale}
 
+\bibliography{reference}
 
 % If you want to compile just a part of the thesis use \includeonly
 % For example:
@@ -66,6 +74,5 @@
 \include{conclusions}
 
 \printbibliography
-
 
 \end{document}

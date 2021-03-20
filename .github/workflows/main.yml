@@ -29,3 +29,8 @@ jobs:
         with:
           root_file: thesis.tex
           working_directory: "FPUB thesis template"
+      - name: Upload PDF
+        uses: actions/upload-artifact@v2
+        with:
+          name: PDF
+          path: thesis.pdf
